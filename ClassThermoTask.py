@@ -72,7 +72,7 @@ class ClsThermoCalc():
 
             conn.close()
 
-            time.sleep(self.repeat_time)        # 10ms wait ※ノーウェイトは良くない
+            time.sleep(self.repeat_time)        # 10ms wait
 
         self.finished = True                        # ループが完了したら終わった状態設定
 
