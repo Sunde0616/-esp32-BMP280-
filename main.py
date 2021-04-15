@@ -17,7 +17,6 @@ IPADDRESS = '192.168.100.2' # 送付先IPアドレス
 MYIPADDR  = '192.168.100.1'
 
 def data_send(temp, pressure):
-    # 距離の桁数の小数点以下は必要か？
     data = "{0:.1f},{1:.1f}".format(temp, pressure)
 
     # ペイロード
